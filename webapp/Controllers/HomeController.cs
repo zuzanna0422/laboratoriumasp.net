@@ -1,7 +1,6 @@
 using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 using webapp.Models;
-
 namespace webapp.Controllers;
 
 public class HomeController : Controller
@@ -13,8 +12,38 @@ public class HomeController : Controller
         _logger = logger;
     }
 
-    public IActionResult Index()
+    public IActionResult Calculator(string op, double? a, double? b)
     {
+        //var op:StringValues = Request.Query["op"];
+        //var a:StringValues = Request.Query["a"];
+        //var b:StringValues = Request.Query["b"];
+        if (a is null || b is null)
+        {
+            ViewBag.ErrorMessage = "Niepoprawny format liczby";
+            return View();
+        }
+        ViewBag.A = a;
+        ViewBag.B = b;
+        switch(op)
+
+        {
+            case "add":
+                ViewBag.Result = a + b;
+                ViewBag.Operator = "+";
+                break;
+            case "sub":
+                ViewBag.Result = a - b;
+                ViewBag.Operator = "-";
+                break;
+            case "div":
+                ViewBag.Result = a / b;
+                ViewBag.Operator = ":";
+                break;
+            case "mul":
+                ViewBag.Result = a * b;
+                break;
+        }
+        
         return View();
     }
 
