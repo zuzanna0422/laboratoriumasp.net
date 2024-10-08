@@ -20,7 +20,13 @@ public class HomeController : Controller
         if (a is null || b is null)
         {
             ViewBag.ErrorMessage = "Niepoprawny format liczby";
-            return View();
+            return View("CustomError");
+        }
+
+        if (op is null)
+        {
+            ViewBag.ErrorMessage = "Nieznany operator";
+            return View("CustomError");
         }
         ViewBag.A = a;
         ViewBag.B = b;
@@ -56,5 +62,10 @@ public class HomeController : Controller
     public IActionResult Error()
     {
         return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
+    }
+
+    public enum Operator
+    {
+        Add, Sub, Mul, Div
     }
 }

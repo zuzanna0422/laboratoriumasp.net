@@ -9,11 +9,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="46340cae-c6d6-4ad9-b599-7bec83574561" name="Changes" comment="start">
-      <change afterPath="$PROJECT_DIR$/webapp/Views/Home/Calculator.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webapp/Views/Shared/CustomError.cshtml" afterDir="false" />
+    <list default="true" id="46340cae-c6d6-4ad9-b599-7bec83574561" name="Changes" comment="commit1">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.laboratoriumasp.net/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.laboratoriumasp.net/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/webapp/Controllers/HomeController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/Controllers/HomeController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/Views/Shared/_Layout.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/Views/Shared/_Layout.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/Views/Shared/CustomError.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/Views/Shared/CustomError.cshtml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +24,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="mock://D:/Users/zuzanna.cholewa/Desktop/laboratoriumasp.net/webapp/Views/Shared/_Layout.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProjectColorInfo"><![CDATA[{
@@ -38,7 +40,9 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    ".NET Launch Settings Profile.webapp: IIS Express.executor": "Run",
     ".NET Launch Settings Profile.webapp: http.executor": "Run",
+    ".NET Launch Settings Profile.webapp: https.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "node.js.detected.package.eslint": "true",
@@ -111,7 +115,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728393661392</updated>
-      <workItem from="1728393662774" duration="2470000" />
+      <workItem from="1728393662774" duration="3074000" />
     </task>
     <task id="LOCAL-00001" summary="start">
       <option name="closed" value="true" />
@@ -121,7 +125,23 @@
       <option name="project" value="LOCAL" />
       <updated>1728394045275</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="commit1">
+      <option name="closed" value="true" />
+      <created>1728396164824</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1728396164824</updated>
+    </task>
+    <task id="LOCAL-00003" summary="commit1">
+      <option name="closed" value="true" />
+      <created>1728396180660</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1728396180660</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -132,6 +152,7 @@
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="start" />
-    <option name="LAST_COMMIT_MESSAGE" value="start" />
+    <MESSAGE value="commit1" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit1" />
   </component>
 </project>
