@@ -9,9 +9,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="46340cae-c6d6-4ad9-b599-7bec83574561" name="Changes" comment="commit2">
+    <list default="true" id="46340cae-c6d6-4ad9-b599-7bec83574561" name="Changes" comment="commit3">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.laboratoriumasp.net/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.laboratoriumasp.net/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/Controllers/HomeController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/Controllers/HomeController.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +23,12 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/zuzanna0422/laboratoriumasp.net.git",
+    "accountId": "b7950576-112c-40e6-b7a2-d3ceabe8e884"
+  }
+}]]></component>
   <component name="HighlightingSettingsPerFile">
     <setting file="mock://D:/Users/zuzanna.cholewa/Desktop/laboratoriumasp.net/webapp/Views/Shared/_Layout.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="SKIP_HIGHLIGHTING" />
   </component>
@@ -114,7 +119,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728393661392</updated>
-      <workItem from="1728393662774" duration="4148000" />
+      <workItem from="1728393662774" duration="4806000" />
     </task>
     <task id="LOCAL-00001" summary="start">
       <option name="closed" value="true" />
@@ -148,7 +153,15 @@
       <option name="project" value="LOCAL" />
       <updated>1728396781347</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="commit3">
+      <option name="closed" value="true" />
+      <created>1728398105268</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1728398105268</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -161,6 +174,7 @@
     <MESSAGE value="start" />
     <MESSAGE value="commit1" />
     <MESSAGE value="commit2" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit2" />
+    <MESSAGE value="commit3" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit3" />
   </component>
 </project>
