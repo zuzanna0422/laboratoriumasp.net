@@ -53,6 +53,23 @@ public class HomeController : Controller
         return View();
     }
 
+        public static int Age(DateTime birth, DateTime future)
+        {
+            if (birth > future)
+            {
+                throw new ArgumentException("Data urodzenia nie może być późniejsza niż data przyszła.");
+            }
+            
+            int age = future.Year - birth.Year;
+            
+            if (future < birth.AddYears(age))
+            {
+                age--;
+            }
+
+            return age;
+        }
+
     public IActionResult Privacy()
     {
         return View();
