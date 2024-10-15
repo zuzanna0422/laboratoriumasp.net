@@ -11,64 +11,14 @@ public class HomeController : Controller
     {
         _logger = logger;
     }
-
-    public IActionResult Calculator(string op, double? a, double? b)
+    public IActionResult Index()
     {
-        //var op:StringValues = Request.Query["op"];
-        //var a:StringValues = Request.Query["a"];
-        //var b:StringValues = Request.Query["b"];
-        if (a is null || b is null)
-        {
-            ViewBag.ErrorMessage = "Niepoprawny format liczby";
-            return View("CustomError");
-        }
-
-        if (op is null)
-        {
-            ViewBag.ErrorMessage = "Nieznany operator";
-            return View("CustomError");
-        }
-        ViewBag.A = a;
-        ViewBag.B = b;
-        switch(op)
-
-        {
-            case "add":
-                ViewBag.Result = a + b;
-                ViewBag.Operator = "+";
-                break;
-            case "sub":
-                ViewBag.Result = a - b;
-                ViewBag.Operator = "-";
-                break;
-            case "div":
-                ViewBag.Result = a / b;
-                ViewBag.Operator = ":";
-                break;
-            case "mul":
-                ViewBag.Result = a * b;
-                break;
-        }
-        
         return View();
     }
+    
 
-        public static int Age(DateTime birth, DateTime future)
-        {
-            if (birth > future)
-            {
-                throw new ArgumentException("Data urodzenia nie może być późniejsza niż data przyszła.");
-            }
-            
-            int age = future.Year - birth.Year;
-            
-            if (future < birth.AddYears(age))
-            {
-                age--;
-            }
-
-            return age;
-        }
+    [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
+    
 
     public IActionResult Privacy()
     {
